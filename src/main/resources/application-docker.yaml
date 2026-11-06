@@ -1,0 +1,5 @@
+spring:
+  mongodb:
+    uri: mongodb://${DOCKER_MONGO_USERNAME}:${DOCKER_MONGO_PASSWORD}@mongo:27017/${DOCKER_MONGO_DB}?authSource=admin
+  kafka:
+    bootstrap-servers: kafka:29092
