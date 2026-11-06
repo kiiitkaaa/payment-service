@@ -1,8 +1,7 @@
-package com.deshko.paymentservice.repository.impl;
+package com.deshko.paymentservice.repository;
 
 import com.deshko.paymentservice.entity.Payment;
 import com.deshko.paymentservice.entity.PaymentStatus;
-import com.deshko.paymentservice.repository.PaymentRepositoryCustom;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.aggregation.Aggregation;
